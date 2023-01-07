@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1 class="title">Etch-A-Sketch</h1>
+    <h1>Etch-A-Sketch</h1>
     <div class="main">
         <div class="settings">
             <button>Clear</button>
-            <div class="dimensions">
+            <div class="dimension-setter">
+                <p class="dimensions"><span class="size">16</span> X <span class="size">16</span></p>
                 <input type="range" min="1" max="64" value="16" class="slider">
                 <button>Apply</button>
             </div>
         </div>
         <div class="board"></div>
-        <div></div>
+        <div class="space"></div>
     </div>
 </body>
 </html>

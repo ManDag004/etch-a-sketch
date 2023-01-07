@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+body {
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+}
+
+.dimension-setter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 0px 20px #999;
+}
+
+.space {
+    flex: 1;
+}
+
+button {
+    width: 240px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 20px;
+}
+
+.dimensions {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
